@@ -7,14 +7,14 @@ spec:
   selector:
     app: mynginx
   template:
-    metadata:
+     metadata:
        labels:
          app: mynginx
-  spec:
-    containers:
-      - name: mynginx-container
-        image: nginx
-        ports:
+     spec:
+       containers:
+       - name: mynginx-container
+         image: nginx
+         ports:
          - containerPort: 80
    
    
